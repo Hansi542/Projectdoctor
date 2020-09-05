@@ -1,7 +1,69 @@
+	        .stay{
+			font-size: 250%;
+		}
+		.point{
+			font-size: 150%;
+
+		}
+		.p{
+			padding-left: 15%;
+			width: 60%;
+		}
+		.start{
+			background-color: olivedrab;
+			font-size: 170%;
+			width: 65%;
+			padding: 1%;
+			color: white;
+		}
+		.enquire{
+			margin: 2%;
+			background-color: goldenrod;
+			color: white;
+			width: 30%;
+			font-size: 150%;
+			padding: 1%;
+		}
+		.know{
+			margin: 2%;
+			background-color:olivedrab;
+			width: 100%;
+			color: white;
+			font-size: 200%;
+			padding: 1%;
+		}
+		.phonepos{
+			display: flex;
+			flex-direction:column;
+			width: 25%;
+		}
+		.pointi{
+			display: flex;
+			flex-direction:column;
+		}
+		.sub{
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+		}
+		.image{
+			background-color:#FFCC00;
+		}
+		.doctor{
+			width: 30%;
+			background-color: palegoldenrod;
+			padding: 2%;
+			margin: 1%;
+		}
+		.head{
+			background-color: olivedrab;
+			color: white;
+			font-size: 170%;
+		}
 		.flex{
-		display: flex;
-		flex-direction: row;
-		background-color: white;	
+			display: flex;
+			flex-direction: row;
+			background-color: white;
 		}
 		.img{
 			padding-left: 17%;
@@ -9,11 +71,11 @@
 		}
 		.phonesymbol{
 			padding-top: 3%;
-			padding-bottom: 1%;
 		}
 		.num{
+			padding-top: 1.6%;
 			padding-left: 0.8%;
-			font-size: 145%;
+			font-size: 25px;
 		}
 		.email{
 			padding-top: 3%;
@@ -22,13 +84,77 @@
 		.link{
 			padding-top: 3%;
 			padding-left: 0.8%;
-			font-size: 145%;
+			font-size: 25px;
 		}
-		.mid img{
+		.subscribe{
+			border: 1px solid black;
+			width: 30%;
+			border-radius: 15%;
+			box-shadow: 2px grey;
+			padding: 1%;
+			font-size: 160%;
+		}
+		.t{
+			font-size: 160%;
+		}
+		.bu{
+			border:none;
+			font-size: 100%;
+			background-color: goldenrod;
+			padding: 1%;
+		}
+		.bu:hover{
+			background-color: olivedrab;
+			color: white;
+		}
+		.bbb{
+			background-color: black;
+			color: white;
+			width: 150px;
+			font-size: 20px;
+		}
+		.docpic{
+			display: flex;
+			flex-direction:row;
+
+		}
+		.docpic1{
+			width: 90%;
+			margin: 2%;
+			background-color:palegoldenrod;
+			color:olivedrab;
+			padding: 1%;
+		}
+		.docpic1 img{
+			width: 250px;
+			border-radius: 20%;
+		}
+		.found{
+			width: 80%;
+			padding: 1%;
+			font-size: 140%;
+		}
+		.medical{
+			width: 90%;
+			background-color:lavender;
+		}
+		.awards{
+			display: flex;
+			flex-direction: row;
+			margin-left: 18.5%;
+		}
+		.awards1{
+			margin: 1%;
+		}
+		.website{
+			background-color: goldenrod;
+			font-size: 200%;
 			padding: 2%;
-			width: 100%;
-			position: center;
 		}
+		.wewe{
+			font-size: 270%;
+		}
+	@media only screen and (min-width: 300px) and (max-width: 767px){
 		.stay{
 			font-size: 250%;
 		}
@@ -63,92 +189,80 @@
 			font-size: 200%;
 			padding: 1%;
 		}
-		.sub{
-		    	display: flex;
-		    	flex-direction: row;
-		    	width: 100%;
-		}
-		.image{
-		    background-color:#FFCC00;
-		}
-		.doctor{
-		    width: 30%;
-		    background-color: palegoldenrod;
-		    padding: 2%;
-		    margin: 1%;
-		}
-		.head{
-		    background-color: olivedrab;
-		    color: white;
-		    font-size: 170%;
-		}
-		.subscribe{
-		    border: 1px solid black;
-		    width: 30%;
-		    border-radius: 15%;
-		    box-shadow: 2px grey;
-		    padding: 1%;
-		    font-size: 160%;
-		}
-		.t{
-		    font-size: 160%;
-		}
-		.bu{
-		    border:none;
-		    font-size: 100%;
-		    background-color: goldenrod;
-		    padding: 1%;
-		}
-		.bu:hover{
-		    background-color: olivedrab;
-		    color: white;
-		}
-		.bbb{
-		    background-color: black;
-		    color: white;
-		    width: 150px;
-		    font-size: 20px;
-		}
-		.docpic{
+		.phonepos{
 			display: flex;
-			flex-direction:row;
-
+			flex-direction:column;
+			width: 25%;
 		}
-		.docpic1{
-			width: 90%;
-			margin: 2%;
-			background-color:palegoldenrod;
-			color:olivedrab;
-			padding: 1%;
+		.pointi{
+			display: flex;
+			flex-direction:column;
 		}
-		.docpic1 img{
-			width: 250px;
-			border-radius: 20%;
-		}
-		.found{
-			width: 80%;
-			padding: 1%;
-			font-size: 140%;
-		}
-		.medical{
-			width: 90%;
-			background-color:lavender;
-		}
-		.awards{
+		.sub{
 			display: flex;
 			flex-direction: row;
-			margin-left: 18.5%;
+			width: 100%;
 		}
-		.awards1{
+		.image{
+			background-color:#FFCC00;
+		}
+		.doctor{
+			width: 30%;
+			background-color: palegoldenrod;
+			padding: 2%;
 			margin: 1%;
 		}
-		.website{
-			background-color: goldenrod;
-			font-size: 200%;
-			padding: 2%;
+		.head{
+			background-color: olivedrab;
+			color: white;
+			font-size: 170%;
 		}
-		.wewe{
-			font-size: 270%;
+		.flex{
+			display: flex;
+			flex-direction: row;
+			background-color: white;
+		}
+		.img{
+			padding-left: 17%;
+			width: 30%;
+		}
+		.phonesymbol{
+			padding-top: 3%;
+		}
+		.num{
+			padding-top: 1.6%;
+			padding-left: 0.8%;
+			font-size: 25px;
+		}
+		.email{
+			padding-top: 3%;
+			padding-left: 3%;
+		}
+		.link{
+			padding-top: 3%;
+			padding-left: 0.8%;
+			font-size: 25px;
+		}
+		.subscribe{
+			border: 1px solid black;
+			width: 30%;
+			border-radius: 15%;
+			box-shadow: 2px grey;
+			padding: 1%;
+			font-size: 160%;
+		}
+		.t{
+			font-size: 160%;
+		}
+		.bu{
+			border:none;
+			font-size: 100%;
+			background-color: goldenrod;
+			padding: 1%;
+		}
+		.bu:hover{
+			background-color: olivedrab;
+			color: white;
 		}
 		.bbb{
 			background-color: black;
@@ -156,120 +270,9 @@
 			width: 150px;
 			font-size: 20px;
 		}
-		@media only screen and (min-width: 300px) and (max-width: 767px){
-		.flex{
-			margin-left:1.5%;
-			display: flex;
-			flex-direction:column;
-			background-color: white;
-		}
-		.mid img{
-			width:400px;
-		}
-		.img img{
-			width: 200px;
-		}
-		.phonesymbol{
-			padding-top:7%;
-			padding-left: 3%;
-		}
-		.num{
-			padding-top:8%;
-			padding-left:2%;
-			font-size: 145%;
-		}
-		.email{
-			padding-top: 3%;
-			padding-left: 3%;
-		}
-		.link{
-			padding-top: 3%;
-			padding-left: 0.8%;
-			font-size: 145%;
-			}
-		.stay{
-			font-size: 200%;
-		}
-		.point{
-			font-size: 100%;
-
-		}
-		.p{
-			padding-left: 15%;
-			width: 80%;
-		}
-		.start{
-			background-color: olivedrab;
-			font-size: 110%;
-			width: 65%;
-			padding: 1%;
-			color: white;
-		}
-		.enquire{
-			margin: 2%;
-			background-color: goldenrod;
-			color: white;
-			width: 30%;
-			font-size: 100%;
-			padding: 1%;
-		}
-		.know{
-			margin: 2%;
-			background-color:olivedrab;
-			width: 100%;
-			color: white;
-			font-size: 120%;
-			padding: 1%;
-		}
-		.pointi{
-			display: flex;
-			flex-direction: row;
-		}
-		.sub{
-		    	display: flex;
-		    	flex-direction: column;
-		    	width: 102%;
-		}
-		.image{
-		    	background-color:#FFCC00;
-		    	width: 200px;
-		}
-		.doctor{
-		    	width: 90%;
-		    	background-color: palegoldenrod;
-		    	padding: 2%;
-		    	margin: 1%;
-		}
-		.head{
-		    	background-color: olivedrab;
-		    	color: white;
-		    	font-size: 170%;
-		    	width: 90%;
-		}
-		.subscribe{
-		    border: 1px solid black;
-		    width: 96.5%;
-		    border-radius: 15%;
-		    box-shadow: 2px grey;
-		    padding: 1%;
-		    font-size: 160%;
-		}
-		.t{
-		    font-size: 160%;
-		}
-		.bu{
-		    border:none;
-		    font-size: 100%;
-		    background-color: goldenrod;
-		    padding: 1%;
-		}
-		.bu:hover{
-		    background-color: olivedrab;
-		    color: white;
-		}
 		.docpic{
 			display: flex;
-			flex-direction: column;
+			flex-direction:row;
 
 		}
 		.docpic1{
@@ -294,7 +297,7 @@
 		}
 		.awards{
 			display: flex;
-			flex-direction:column;
+			flex-direction: row;
 			margin-left: 18.5%;
 		}
 		.awards1{
@@ -308,48 +311,18 @@
 		.wewe{
 			font-size: 270%;
 		}
-		}
-		@media only screen and (min-width: 768px) and (max-width: 1024px){
-		.flex{
-			display: flex;
-			flex-direction:row;
-			background-color: white;
-		}
-		.img img{
-			width:170px;
-		}
-		.phonesymbol{
-			padding-top: 4.5%;
-			padding-left: 3%;
-		}
-		.num{
-			padding-top:5%;
-			padding-left:1%;
-			font-size: 145%;
-		}
-		.email{
-			padding-top: 3%;
-			padding-left: 3%;
-		}
-		.link{
-			padding-top: 3%;
-			padding-left: 0.8%;
-			font-size: 145%;
-			}
-		.mid img{
-			width:500px;
-			position: center;
-		}
+	}
+	@media only screen and (min-width: 768px) and (max-width: 1024px){
 		.stay{
-			font-size: 300%;
+			font-size: 250%;
 		}
 		.point{
-			font-size: 180%;
+			font-size: 150%;
 
 		}
 		.p{
 			padding-left: 15%;
-			width: 80%;
+			width: 60%;
 		}
 		.start{
 			background-color: olivedrab;
@@ -374,51 +347,90 @@
 			font-size: 200%;
 			padding: 1%;
 		}
+		.phonepos{
+			display: flex;
+			flex-direction:column;
+			width: 25%;
+		}
+		.pointi{
+			display: flex;
+			flex-direction:column;
+		}
 		.sub{
-		    display: flex;
-		    flex-direction: column;
-		    width: 92%;
+			display: flex;
+			flex-direction: row;
+			width: 100%;
 		}
 		.image{
-		    background-color:#FFCC00;
-		    width: 400px;
+			background-color:#FFCC00;
 		}
 		.doctor{
-		    width: 100%;
-		    padding-left: 5%;
-		    background-color: palegoldenrod;
-		    padding: 2%;
-		    margin: 1%;
+			width: 30%;
+			background-color: palegoldenrod;
+			padding: 2%;
+			margin: 1%;
 		}
 		.head{
-		    background-color: olivedrab;
-		    color: white;
-		    font-size: 170%;
+			background-color: olivedrab;
+			color: white;
+			font-size: 170%;
+		}
+		.flex{
+			display: flex;
+			flex-direction: row;
+			background-color: white;
+		}
+		.img{
+			padding-left: 17%;
+			width: 30%;
+		}
+		.phonesymbol{
+			padding-top: 3%;
+		}
+		.num{
+			padding-top: 1.6%;
+			padding-left: 0.8%;
+			font-size: 25px;
+		}
+		.email{
+			padding-top: 3%;
+			padding-left: 3%;
+		}
+		.link{
+			padding-top: 3%;
+			padding-left: 0.8%;
+			font-size: 25px;
 		}
 		.subscribe{
-		    border: 1px solid black;
-		    width: 80%;
-		    border-radius: 15%;
-		    box-shadow: 2px grey;
-		    padding: 1%;
-		    font-size: 160%;
+			border: 1px solid black;
+			width: 30%;
+			border-radius: 15%;
+			box-shadow: 2px grey;
+			padding: 1%;
+			font-size: 160%;
 		}
 		.t{
-		    font-size: 160%;
+			font-size: 160%;
 		}
 		.bu{
-		    border:none;
-		    font-size: 100%;
-		    background-color: goldenrod;
-		    padding: 1%;
+			border:none;
+			font-size: 100%;
+			background-color: goldenrod;
+			padding: 1%;
 		}
 		.bu:hover{
-		    background-color: olivedrab;
-		    color: white;
+			background-color: olivedrab;
+			color: white;
+		}
+		.bbb{
+			background-color: black;
+			color: white;
+			width: 150px;
+			font-size: 20px;
 		}
 		.docpic{
 			display: flex;
-			flex-direction:column;
+			flex-direction:row;
 
 		}
 		.docpic1{
@@ -443,15 +455,11 @@
 		}
 		.awards{
 			display: flex;
-			flex-direction: column;
+			flex-direction: row;
 			margin-left: 18.5%;
 		}
 		.awards1{
 			margin: 1%;
-			font-size: 30px;
-		}
-		.awards1 img{
-			width: 490px;
 		}
 		.website{
 			background-color: goldenrod;
@@ -459,7 +467,6 @@
 			padding: 2%;
 		}
 		.wewe{
-			font-size: 400%;
+			font-size: 270%;
 		}
-		}
-
+	}
