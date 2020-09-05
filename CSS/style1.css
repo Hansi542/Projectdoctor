@@ -214,7 +214,9 @@
 			padding: 1%;
 		}
 		}
-	</style>.sub{
+	</style>
+        <style>
+                .sub{
 			display: flex;
 			flex-direction: row;
 			width: 100%;
@@ -237,27 +239,6 @@
 			display: flex;
 			flex-direction: row;
 			background-color: white;
-		}
-		.img{
-			padding-left: 17%;
-			width: 30%;
-		}
-		.phonesymbol{
-			padding-top: 3%;
-		}
-		.num{
-			padding-top: 1.6%;
-			padding-left: 0.8%;
-			font-size: 25px;
-		}
-		.email{
-			padding-top: 3%;
-			padding-left: 3%;
-		}
-		.link{
-			padding-top: 3%;
-			padding-left: 0.8%;
-			font-size: 25px;
 		}
 		.subscribe{
 			border: 1px solid black;
@@ -308,34 +289,6 @@
 			font-size: 170%;
 			width: 90%;
 		}
-		.flex{
-			display: flex;
-			width: 100%;
-			flex-direction: column;
-			background-color: white;
-		}
-		.img img{
-			width: 230px;
-			padding-left: 12%;
-		}
-		.phonesymbol{
-			padding-left: 2.5%;
-			padding-top: 3%;
-		}
-		.num{
-			padding-top: 1.6%;
-			padding-left: 0.8%;
-			font-size: 25px;
-		}
-		.email{
-			padding-top: 3%;
-			padding-left: 3%;
-		}
-		.link{
-			padding-top: 3%;
-			padding-left: 0.8%;
-			font-size: 25px;
-		}
 		.subscribe{
 			border: 1px solid black;
 			width: 96.5%;
@@ -380,38 +333,6 @@
 			color: white;
 			font-size: 170%;
 		}
-		.flex{
-			display: flex;
-			flex-direction: column;
-			background-color: white;
-		}
-		.img img{
-			width:460px;
-		}
-		.phonesymbol{
-			padding-left: 3%;
-			padding-top: 3%;
-		}
-		.phonesymbol img{
-			width: 60px;
-		}
-		.email img{
-			width: 60px;
-		}
-		.num{
-			padding-top: 1.6%;
-			padding-left: 0.8%;
-			font-size: 50px;
-		}
-		.email{
-			padding-top: 3%;
-			padding-left: 3%;
-		}
-		.link{
-			padding-top: 3%;
-			padding-left: 0.8%;
-			font-size: 50px;
-		}
 		.subscribe{
 			border: 1px solid black;
 			width: 80%;
@@ -436,32 +357,6 @@
 		}
 	</style>
 	<style type="text/css">
-		.num{
-			padding-top: 1.6%;
-			padding-left: 0.8%;
-			font-size:145%;
-		}
-		.email{
-			padding-top: 3%;
-			padding-left: 3%;
-		}
-		.link{
-			padding-top: 3%;
-			padding-left: 0.8%;
-			font-size:145%;
-		}
-		.flex{
-			display: flex;
-			flex-direction:row;
-			background-color: white;
-		}
-		.img{
-			padding-left: 17%;
-			width: 30%;
-		}
-		.phonesymbol{
-			padding-top: 3%;
-		}
 		.docpic{
 			display: flex;
 			flex-direction:row;
@@ -510,32 +405,6 @@
 			font-size: 20px;
 		}
 	    @media only screen and (min-width: 300px) and (max-width: 767px){
-		.num{
-			padding-top: 1.6%;
-			padding-left: 0.8%;
-			font-size:145%;
-		}
-		.email{
-			padding-top: 3%;
-			padding-left: 3%;
-		}
-		.link{
-			padding-top: 3%;
-			padding-left: 0.8%;
-			font-size:145%;
-		}
-		.flex{
-			display: flex;
-			flex-direction: column;
-			background-color: white;
-		}
-		.img img{
-			width:230px;
-		}
-		.phonesymbol{
-			padding-top: 3%;
-			padding-left: 3%;
-		}
 		.docpic{
 			display: flex;
 			flex-direction: column;
@@ -579,38 +448,6 @@
 		}
 		}
 		@media only screen and (min-width: 768px) and (max-width: 1024px){
-		.num{
-			padding-top: 1.6%;
-			padding-left: 0.8%;
-			font-size:200%;
-		}
-		.email{
-			padding-top: 3%;
-			padding-left: 3%;
-		}
-		.link{
-			padding-top: 3%;
-			padding-left: 0.8%;
-			font-size:200%;
-		}
-		.flex{
-			display: flex;
-			flex-direction:column;
-			background-color: white;
-		}
-		.img img{
-			width:400px;
-		}
-		.phonesymbol{
-			padding-top: 3%;
-			padding-left: 3%;
-		}
-		.phonesymbol img{
-			width: 50px;
-		}
-		.email img{
-			width: 50px;
-		}
 		.docpic{
 			display: flex;
 			flex-direction:column;
