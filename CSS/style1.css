@@ -1,4 +1,4 @@
-<style type="text/css">
+
 		.flex{
 			display: flex;
 			flex-direction: row;
@@ -214,8 +214,6 @@
 			padding: 1%;
 		}
 		}
-	</style>
-        <style>
                 .sub{
 			display: flex;
 			flex-direction: row;
@@ -494,4 +492,4 @@
 			font-size: 400%;
 		}
 		}
-	</style>
+	
