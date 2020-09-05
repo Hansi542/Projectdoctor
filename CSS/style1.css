@@ -1,5 +1,4 @@
-
-		.flex{
+	.flex{
 			display: flex;
 			flex-direction: row;
 			background-color: white;
@@ -72,6 +71,151 @@
 		.pointi{
 			display: flex;
 			flex-direction:column;
+		}
+		.sub{
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+		}
+		.image{
+			background-color:#FFCC00;
+		}
+		.doctor{
+			width: 30%;
+			background-color: palegoldenrod;
+			padding: 2%;
+			margin: 1%;
+		}
+		.head{
+			background-color: olivedrab;
+			color: white;
+			font-size: 170%;
+		}
+		.flex{
+			display: flex;
+			flex-direction: row;
+			background-color: white;
+		}
+		.img{
+			padding-left: 17%;
+			width: 30%;
+		}
+		.phonesymbol{
+			padding-top: 3%;
+		}
+		.num{
+			padding-top: 1.6%;
+			padding-left: 0.8%;
+			font-size: 25px;
+		}
+		.email{
+			padding-top: 3%;
+			padding-left: 3%;
+		}
+		.link{
+			padding-top: 3%;
+			padding-left: 0.8%;
+			font-size: 25px;
+		}
+		.subscribe{
+			border: 1px solid black;
+			width: 30%;
+			border-radius: 15%;
+			box-shadow: 2px grey;
+			padding: 1%;
+			font-size: 160%;
+		}
+		.t{
+			font-size: 160%;
+		}
+		.bu{
+			border:none;
+			font-size: 100%;
+			background-color: goldenrod;
+			padding: 1%;
+		}
+		.bu:hover{
+			background-color: olivedrab;
+			color: white;
+		}
+		.bbb{
+			background-color: black;
+			color: white;
+			width: 150px;
+			font-size: 20px;
+		}
+		.num{
+			padding-top: 1.6%;
+			padding-left: 0.8%;
+			font-size:145%;
+		}
+		.email{
+			padding-top: 3%;
+			padding-left: 3%;
+		}
+		.link{
+			padding-top: 3%;
+			padding-left: 0.8%;
+			font-size:145%;
+		}
+		.flex{
+			display: flex;
+			flex-direction:row;
+			background-color: white;
+		}
+		.img{
+			padding-left: 17%;
+			width: 30%;
+		}
+		.phonesymbol{
+			padding-top: 3%;
+		}
+		.docpic{
+			display: flex;
+			flex-direction:row;
+
+		}
+		.docpic1{
+			width: 90%;
+			margin: 2%;
+			background-color:palegoldenrod;
+			color:olivedrab;
+			padding: 1%;
+		}
+		.docpic1 img{
+			width: 250px;
+			border-radius: 20%;
+		}
+		.found{
+			width: 80%;
+			padding: 1%;
+			font-size: 140%;
+		}
+		.medical{
+			width: 90%;
+			background-color:lavender;
+		}
+		.awards{
+			display: flex;
+			flex-direction: row;
+			margin-left: 18.5%;
+		}
+		.awards1{
+			margin: 1%;
+		}
+		.website{
+			background-color: goldenrod;
+			font-size: 200%;
+			padding: 2%;
+		}
+		.wewe{
+			font-size: 270%;
+		}
+		.bbb{
+			background-color: black;
+			color: white;
+			width: 150px;
+			font-size: 20px;
 		}
 		@media only screen and (min-width: 300px) and (max-width: 767px){
 		.flex{
@@ -147,6 +291,143 @@
 			display: flex;
 			flex-direction: row;
 		}
+		.sub{
+			display: flex;
+			flex-direction: column;
+			width: 102%;
+		}
+		.image{
+			background-color:#FFCC00;
+			width: 200px;
+		}
+		.doctor{
+			width: 90%;
+			background-color: palegoldenrod;
+			padding: 2%;
+			margin: 1%;
+		}
+		.head{
+			background-color: olivedrab;
+			color: white;
+			font-size: 170%;
+			width: 90%;
+		}
+		.flex{
+			display: flex;
+			width: 100%;
+			flex-direction: column;
+			background-color: white;
+		}
+		.img img{
+			width: 230px;
+			padding-left: 12%;
+		}
+		.phonesymbol{
+			padding-left: 2.5%;
+			padding-top: 3%;
+		}
+		.num{
+			padding-top: 1.6%;
+			padding-left: 0.8%;
+			font-size: 25px;
+		}
+		.email{
+			padding-top: 3%;
+			padding-left: 3%;
+		}
+		.link{
+			padding-top: 3%;
+			padding-left: 0.8%;
+			font-size: 25px;
+		}
+		.subscribe{
+			border: 1px solid black;
+			width: 96.5%;
+			border-radius: 15%;
+			box-shadow: 2px grey;
+			padding: 1%;
+			font-size: 160%;
+		}
+		.t{
+			font-size: 160%;
+		}
+		.bu{
+			border:none;
+			font-size: 100%;
+			background-color: goldenrod;
+			padding: 1%;
+		}
+		.bu:hover{
+			background-color: olivedrab;
+			color: white;
+		}
+		.num{
+			padding-top: 1.6%;
+			padding-left: 0.8%;
+			font-size:145%;
+		}
+		.email{
+			padding-top: 3%;
+			padding-left: 3%;
+		}
+		.link{
+			padding-top: 3%;
+			padding-left: 0.8%;
+			font-size:145%;
+		}
+		.flex{
+			display: flex;
+			flex-direction: column;
+			background-color: white;
+		}
+		.img img{
+			width:230px;
+		}
+		.phonesymbol{
+			padding-top: 3%;
+			padding-left: 3%;
+		}
+		.docpic{
+			display: flex;
+			flex-direction: column;
+
+		}
+		.docpic1{
+			width: 90%;
+			margin: 2%;
+			background-color:palegoldenrod;
+			color:olivedrab;
+			padding: 1%;
+		}
+		.docpic1 img{
+			width: 250px;
+			border-radius: 20%;
+		}
+		.found{
+			width: 80%;
+			padding: 1%;
+			font-size: 140%;
+		}
+		.medical{
+			width: 90%;
+			background-color:lavender;
+		}
+		.awards{
+			display: flex;
+			flex-direction:column;
+			margin-left: 18.5%;
+		}
+		.awards1{
+			margin: 1%;
+		}
+		.website{
+			background-color: goldenrod;
+			font-size: 200%;
+			padding: 2%;
+		}
+		.wewe{
+			font-size: 270%;
+		}
 		}
 		@media only screen and (min-width: 768px) and (max-width: 1024px){
 		.flex{
@@ -213,103 +494,6 @@
 			font-size: 200%;
 			padding: 1%;
 		}
-		}
-                .sub{
-			display: flex;
-			flex-direction: row;
-			width: 100%;
-		}
-		.image{
-			background-color:#FFCC00;
-		}
-		.doctor{
-			width: 30%;
-			background-color: palegoldenrod;
-			padding: 2%;
-			margin: 1%;
-		}
-		.head{
-			background-color: olivedrab;
-			color: white;
-			font-size: 170%;
-		}
-		.flex{
-			display: flex;
-			flex-direction: row;
-			background-color: white;
-		}
-		.subscribe{
-			border: 1px solid black;
-			width: 30%;
-			border-radius: 15%;
-			box-shadow: 2px grey;
-			padding: 1%;
-			font-size: 160%;
-		}
-		.t{
-			font-size: 160%;
-		}
-		.bu{
-			border:none;
-			font-size: 100%;
-			background-color: goldenrod;
-			padding: 1%;
-		}
-		.bu:hover{
-			background-color: olivedrab;
-			color: white;
-		}
-		.bbb{
-			background-color: black;
-			color: white;
-			width: 150px;
-			font-size: 20px;
-		}
-		@media only screen and (min-width: 300px) and (max-width: 767px){
-		.sub{
-			display: flex;
-			flex-direction: column;
-			width: 102%;
-		}
-		.image{
-			background-color:#FFCC00;
-			width: 200px;
-		}
-		.doctor{
-			width: 90%;
-			background-color: palegoldenrod;
-			padding: 2%;
-			margin: 1%;
-		}
-		.head{
-			background-color: olivedrab;
-			color: white;
-			font-size: 170%;
-			width: 90%;
-		}
-		.subscribe{
-			border: 1px solid black;
-			width: 96.5%;
-			border-radius: 15%;
-			box-shadow: 2px grey;
-			padding: 1%;
-			font-size: 160%;
-		}
-		.t{
-			font-size: 160%;
-		}
-		.bu{
-			border:none;
-			font-size: 100%;
-			background-color: goldenrod;
-			padding: 1%;
-		}
-		.bu:hover{
-			background-color: olivedrab;
-			color: white;
-		}
-		}
-		@media only screen and (min-width: 768px) and (max-width: 1024px){
 		.sub{
 			display: flex;
 			flex-direction: column;
@@ -331,6 +515,38 @@
 			color: white;
 			font-size: 170%;
 		}
+		.flex{
+			display: flex;
+			flex-direction: column;
+			background-color: white;
+		}
+		.img img{
+			width:460px;
+		}
+		.phonesymbol{
+			padding-left: 3%;
+			padding-top: 3%;
+		}
+		.phonesymbol img{
+			width: 60px;
+		}
+		.email img{
+			width: 60px;
+		}
+		.num{
+			padding-top: 1.6%;
+			padding-left: 0.8%;
+			font-size: 50px;
+		}
+		.email{
+			padding-top: 3%;
+			padding-left: 3%;
+		}
+		.link{
+			padding-top: 3%;
+			padding-left: 0.8%;
+			font-size: 50px;
+		}
 		.subscribe{
 			border: 1px solid black;
 			width: 80%;
@@ -352,100 +568,38 @@
 			background-color: olivedrab;
 			color: white;
 		}
+		.num{
+			padding-top: 1.6%;
+			padding-left: 0.8%;
+			font-size:200%;
 		}
-	</style>
-	<style type="text/css">
-		.docpic{
-			display: flex;
-			flex-direction:row;
-
+		.email{
+			padding-top: 3%;
+			padding-left: 3%;
 		}
-		.docpic1{
-			width: 90%;
-			margin: 2%;
-			background-color:palegoldenrod;
-			color:olivedrab;
-			padding: 1%;
+		.link{
+			padding-top: 3%;
+			padding-left: 0.8%;
+			font-size:200%;
 		}
-		.docpic1 img{
-			width: 250px;
-			border-radius: 20%;
-		}
-		.found{
-			width: 80%;
-			padding: 1%;
-			font-size: 140%;
-		}
-		.medical{
-			width: 90%;
-			background-color:lavender;
-		}
-		.awards{
-			display: flex;
-			flex-direction: row;
-			margin-left: 18.5%;
-		}
-		.awards1{
-			margin: 1%;
-		}
-		.website{
-			background-color: goldenrod;
-			font-size: 200%;
-			padding: 2%;
-		}
-		.wewe{
-			font-size: 270%;
-		}
-		.bbb{
-			background-color: black;
-			color: white;
-			width: 150px;
-			font-size: 20px;
-		}
-	    @media only screen and (min-width: 300px) and (max-width: 767px){
-		.docpic{
-			display: flex;
-			flex-direction: column;
-
-		}
-		.docpic1{
-			width: 90%;
-			margin: 2%;
-			background-color:palegoldenrod;
-			color:olivedrab;
-			padding: 1%;
-		}
-		.docpic1 img{
-			width: 250px;
-			border-radius: 20%;
-		}
-		.found{
-			width: 80%;
-			padding: 1%;
-			font-size: 140%;
-		}
-		.medical{
-			width: 90%;
-			background-color:lavender;
-		}
-		.awards{
+		.flex{
 			display: flex;
 			flex-direction:column;
-			margin-left: 18.5%;
+			background-color: white;
 		}
-		.awards1{
-			margin: 1%;
+		.img img{
+			width:400px;
 		}
-		.website{
-			background-color: goldenrod;
-			font-size: 200%;
-			padding: 2%;
+		.phonesymbol{
+			padding-top: 3%;
+			padding-left: 3%;
 		}
-		.wewe{
-			font-size: 270%;
+		.phonesymbol img{
+			width: 50px;
 		}
+		.email img{
+			width: 50px;
 		}
-		@media only screen and (min-width: 768px) and (max-width: 1024px){
 		.docpic{
 			display: flex;
 			flex-direction:column;
@@ -492,4 +646,3 @@
 			font-size: 400%;
 		}
 		}
-	
