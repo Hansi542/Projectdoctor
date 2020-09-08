@@ -140,11 +140,15 @@
 .medical{
 	width: 90%;
 	background-color:lavender;
-}
+	}
 .awards{
 	display: flex;
 	flex-direction:column;
 	margin-left: 18.5%;
+       }
+.awards1 img{
+	position:center;
+	margin-left:30%;
 }
 .awards1{
 	margin: 1%;
