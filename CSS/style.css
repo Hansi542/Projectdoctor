@@ -158,312 +158,320 @@
 }
 @media only screen and (min-width: 300px) and (max-width: 767px){
 	.stay{
-	font-size: 250%;
-}.point{
-	font-size: 150%;
-}
-.p{
-	padding-left: 15%;
-	width: 60%;
-}
-.start{
-	background-color: olivedrab;
-	font-size: 170%;
-	width: 65%;
-	padding: 1%;
-	color: white;
-}
-.enquire{
-	margin: 2%;
-	background-color: goldenrod;
-	color: white;
-	width: 30%;
-	font-size: 150%;
-	padding: 1%;
-}
-.know{
-	margin: 2%;
-	background-color:olivedrab;
-	width: 100%;
-	color: white;
-	font-size: 200%;
-	padding: 1%;
-}
-.mid img{
-	width:100%;
-}
-.phonepos{
-	display: flex;
-	flex-direction:row;
-	width: 25%;
-}
-.pointi{
-	display: flex;
-	flex-direction:row;
-}
-.sub{
-	display: flex;
-	flex-direction:column;
-	width: 100%;
-}
-.image{
-	background-color:#FFCC00;
-}
-.doctor{
-	width: 30%;
-	background-color: palegoldenrod;
-	padding: 2%;
-	margin: 1%;
-}
-.head{
-	background-color: olivedrab;
-	color: white;
-	font-size: 170%;
-}
-.flex{
-	display: flex;
-	flex-direction:column;
-	background-color: white;
+		font-size: 250%;
 	}
-.img{
-	padding-left: 17%;
-	width: 30%;
-}
-.phonesymbol{
-	padding-top: 3%;
-}
-.num{
-	padding-top: 1.6%;
-	padding-left: 0.8%;
-	font-size: 25px;
-}
-.email{
-	padding-top: 3%;
-	padding-left: 3%;
-}
-.link{
-	padding-top: 3%;
-	padding-left: 0.8%;
-	font-size: 25px;
-}
-.subscribe{
-	border: 1px solid black;
-	width: 30%;
-	border-radius: 15%;
-	box-shadow: 2px grey;
-	padding: 1%;
-	font-size: 160%;
-}
-.t{
-	font-size: 160%;
-}
-.bu{
-	border:none;
-	font-size: 100%;
-	background-color: goldenrod;
-	padding: 1%;
-}
-.bu:hover{
-	background-color: olivedrab;
-	color: white;
-}
-.bbb{
-	background-color: black;
-	color: white;
-	width: 150px;
-	font-size: 20px;
-}
-.docpic{
-	display: flex;
-	flex-direction:row;
+	.point{
+		font-size: 150%;
 	}
-.docpic1{
-	width: 90%;
-	margin: 2%;
-	background-color:palegoldenrod;
-	color:olivedrab;
-	padding: 1%;
-}
-.docpic1 img{
-	width: 250px;
-	border-radius: 20%;
-}
-.found{
-	width: 80%;
-	padding: 1%;
-	font-size: 140%;
-}
-.medical{
-	width: 90%;
-	background-color:lavender;
-}
-.awards{
-	display: flex;
-	flex-direction:column;
-	margin-left: 18.5%;
-}
-.awards1{
-	margin: 1%;
-}
-.website{
-	background-color: goldenrod;
-	font-size: 200%;
-	padding: 2%;
-}
-.wewe{
-	font-size: 270%;
+	.p{
+		padding-left: 15%;
+		width: 60%;
+	}
+	.mid img{
+		width:100%;
+	}
+	.start{
+	        background-color: olivedrab;
+		font-size: 170%;
+		width: 65%;
+		padding: 1%;
+		color: white;
+	}
+	.enquire{
+		margin: 2%;
+		background-color: goldenrod;
+		color: white;
+		width: 30%;
+		font-size: 150%;
+		padding: 1%;
+	}
+
+	.know{
+		margin: 2%;
+		background-color:olivedrab;
+		width: 100%;
+		color: white;
+		font-size: 200%;
+		padding: 1%;
+	}
+	.phonepos{
+		display: flex;
+		flex-direction:row;
+		width: 25%;
+	}
+	.pointi{
+		display: flex;
+		flex-direction:row;
+	}
+	.sub{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.image{
+		background-color:#FFCC00;
+	}
+	.doctor{
+		width: 30%;
+		background-color: palegoldenrod;
+		padding: 2%;
+		margin: 1%;
+	}
+	.head{
+		background-color: olivedrab;
+		color: white;
+		font-size: 170%;
+	}
+	.flex{
+		display: flex;
+		flex-direction:column;
+		background-color: white;
+		}
+	.img{
+		padding-left: 17%;
+		width: 30%;
+	}
+	.phonesymbol{
+		padding-top: 3%;
+	}
+	.num{
+		padding-top: 1.6%;
+		padding-left: 0.8%;
+		font-size: 25px;
+	}
+	.email{
+		padding-top: 3%;
+		padding-left: 3%;
+	}
+	.link{
+		padding-top: 3%;
+		padding-left: 0.8%;
+		font-size: 25px;
+	}
+	.subscribe{
+		border: 1px solid black;
+		width: 30%;
+		border-radius: 15%;
+		box-shadow: 2px grey;
+		padding: 1%;
+		font-size: 160%;
+	}
+	.t{
+		font-size: 160%;
+	}
+	.bu{
+		border:none;
+		font-size: 100%;
+		background-color: goldenrod;
+		padding: 1%;
+	}
+	.bu:hover{
+		background-color: olivedrab;
+		color: white;
+	}
+	.bbb{
+		background-color: black;
+		color: white;
+		width: 150px;
+		font-size: 20px;
+	}
+	.docpic{
+		display: flex;
+		flex-direction:column;
+	}
+	.docpic1{
+		width: 90%;
+		margin: 2%;
+		background-color:palegoldenrod;
+		color:olivedrab;
+		padding: 1%;
+	}
+	.docpic1 img{
+		width: 250px;
+		border-radius: 20%;
+	}
+	.found{
+		width: 80%;
+		padding: 1%;
+		font-size: 140%;
+	}
+	.mid img{
+		width:100%;
+	}
+	.medical{
+		width: 90%;
+		background-color:lavender;
+	}
+	.awards{
+		display: flex;
+		flex-direction:column;
+		margin-left: 18.5%;
+	}
+	.awards1{
+		margin: 1%;
+	}
+	.website{
+		background-color: goldenrod;
+		font-size: 200%;
+		padding: 2%;
+	}
+	.wewe{
+		font-size: 270%;
+	}
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px){
 	.stay{
-	font-size: 250%;
-}.point{
-	font-size: 150%;
-}
-.p{
-	padding-left: 15%;
-	width: 60%;
-}
-.start{
-	background-color: olivedrab;
-	font-size: 170%;
-	width: 65%;
-	padding: 1%;
-	color: white;
-}
-.enquire{
-	margin: 2%;
-	background-color: goldenrod;
-	color: white;
-	width: 30%;
-	font-size: 150%;
-	padding: 1%;
-}
-.know{
-	margin: 2%;
-	background-color:olivedrab;
-	width: 100%;
-	color: white;
-	font-size: 200%;
-	padding: 1%;
-}
-.phonepos{
-	display: flex;
-	flex-direction:row;
-	width: 25%;
-}
-.pointi{
-	display: flex;
-	flex-direction:row;
-}
-.sub{
-	display: flex;
-	flex-direction:column;
-	width: 100%;
-}
-.image{
-	background-color:#FFCC00;
-}
-.doctor{
-	width: 30%;
-	background-color: palegoldenrod;
-	padding: 2%;
-	margin: 1%;
-}
-.head{
-	background-color: olivedrab;
-	color: white;
-	font-size: 170%;
-}
-.flex{
-	display: flex;
-	flex-direction: column;
-	background-color: white;
+		font-size: 250%;
 	}
-.img{
-	padding-left: 17%;
-	width: 30%;
-}
-.phonesymbol{
-	padding-top: 3%;
-}
-.num{
-	padding-top: 1.6%;
-	padding-left: 0.8%;
-	font-size: 25px;
-}
-.email{
-	padding-top: 3%;
-	padding-left: 3%;
-}
-.link{
-	padding-top: 3%;
-	padding-left: 0.8%;
-	font-size: 25px;
-}
-.subscribe{
-	border: 1px solid black;
-	width: 30%;
-	border-radius: 15%;
-	box-shadow: 2px grey;
-	padding: 1%;
-	font-size: 160%;
-}
-.t{
-	font-size: 160%;
-}
-.bu{
-	border:none;
-	font-size: 100%;
-	background-color: goldenrod;
-	padding: 1%;
-}
-.bu:hover{
-	background-color: olivedrab;
-	color: white;
-}
-.bbb{
-	background-color: black;
-	color: white;
-	width: 150px;
-	font-size: 20px;
-}
-.docpic{
-	display: flex;
-	flex-direction:column;
+	.point{
+		font-size: 150%;
 	}
-.docpic1{
-	width: 90%;
-	margin: 2%;
-	background-color:palegoldenrod;
-	color:olivedrab;
-	padding: 1%;
-}
-.docpic1 img{
-	width: 250px;
-	border-radius: 20%;
-}
-.found{
-	width: 80%;
-	padding: 1%;
-	font-size: 140%;
-}
-.medical{
-	width: 90%;
-	background-color:lavender;
-}
-.awards{
-	display: flex;
-	flex-direction:column;
-	margin-left: 18.5%;
-}
-.awards1{
-	margin: 1%;
-}
-.website{
-	background-color: goldenrod;
-	font-size: 200%;
-	padding: 2%;
-}
-.wewe{
-	font-size: 270%;
+	.p{
+		padding-left: 15%;
+		width: 60%;
+	}	
+	.start{
+		background-color: olivedrab;
+		font-size: 170%;
+		width: 65%;
+		padding: 1%;
+		color: white;
+	}
+	.enquire{
+		margin: 2%;
+		background-color: goldenrod;
+		color: white;
+		width: 30%;
+		font-size: 150%;
+		padding: 1%;
+	}
+	.know{
+		margin: 2%;
+		background-color:olivedrab;
+		width: 100%;
+		color: white;
+		font-size: 200%;
+		padding: 1%;
+	}
+	.phonepos{
+		display: flex;
+		flex-direction:row;
+		width: 25%;
+	}
+	.pointi{
+		display: flex;
+		flex-direction:row;
+	}
+	.sub{
+		display: flex;
+		flex-direction:column;
+		width: 100%;
+	}
+	.image{
+		background-color:#FFCC00;
+	}
+	.doctor{
+		width: 30%;
+		background-color: palegoldenrod;
+		padding: 2%;
+		margin: 1%;
+	}
+	.head{
+		background-color: olivedrab;
+		color: white;
+		font-size: 170%;
+	}
+	.flex{
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		}
+	.img{
+		padding-left: 17%;
+		width: 30%;
+	}
+	.phonesymbol{
+		padding-top: 3%;
+	}
+	.num{
+		padding-top: 1.6%;
+		padding-left: 0.8%;
+		font-size: 25px;
+	}
+	.email{
+		padding-top: 3%;
+		padding-left: 3%;
+	}
+	.link{
+		padding-top: 3%;
+		padding-left: 0.8%;
+		font-size: 25px;
+	}
+	.subscribe{
+		border: 1px solid black;
+		width: 30%;
+		border-radius: 15%;
+		box-shadow: 2px grey;
+		padding: 1%;
+		font-size: 160%;
+	}
+	.t{
+		font-size: 160%;
+	}
+	.bu{
+		border:none;
+		font-size: 100%;
+		background-color: goldenrod;
+		padding: 1%;
+	}
+	.bu:hover{
+		background-color: olivedrab;
+		color: white;
+	}
+	.bbb{
+		background-color: black;
+		color: white;
+		width: 150px;
+		font-size: 20px;
+	}
+	.docpic{
+		display: flex;
+		flex-direction:column;
+		}
+	.docpic1{
+		width: 90%;
+		margin: 2%;
+		background-color:palegoldenrod;
+		color:olivedrab;
+		padding: 1%;
+	}
+	.docpic1 img{
+		width: 250px;
+		border-radius: 20%;
+	}
+	.found{
+		width: 80%;
+		padding: 1%;
+		font-size: 140%;
+	}
+	.medical{
+		width: 90%;
+		background-color:lavender;
+	}
+	.awards{
+		display: flex;
+		flex-direction:column;
+		margin-left: 18.5%;
+	}
+	.awards1{
+		margin: 1%;
+	}
+	.website{
+		background-color: goldenrod;
+		font-size: 200%;
+		padding: 2%;
+	}
+	.wewe{
+		font-size: 270%;
+	}
 }
