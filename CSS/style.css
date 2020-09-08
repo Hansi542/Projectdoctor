@@ -59,12 +59,12 @@
 	background-color: olivedrab;
 	color: white;
 	font-size: 170%;
-}
-.flex{
-	display: flex;
-	flex-direction: row;
-	background-color: white;
-	width:100%;
+	}
+	.flex{
+		display: flex;
+		flex-direction: row;
+		background-color: white;
+		width:100%;
 	}
 .img{
 	padding-left: 17%;
