@@ -73,7 +73,7 @@
 .num{
 	padding-top: 1.6%;
 	padding-left: 0.8%;
-	font-size:25px;
+	font-size:50px;
 }
 .subscribe{
 	border: 1px solid black;
@@ -213,7 +213,6 @@
 		background-color: white;
 		}
 	.img{
-		padding-left: 17%;
 		width:20%;
 	}
 	.phonesymbol{
@@ -222,7 +221,7 @@
 	.num{
 		padding-top: 1.6%;
 		padding-left: 0.8%;
-		font-size:25px;
+		font-size:40px;
 	}
 	.subscribe{
 		border: 1px solid black;
@@ -359,7 +358,6 @@
 		background-color: white;
 		}
 	.img{
-		padding-left: 17%;
 		width: 30%;
 	}
 	.phonesymbol{
@@ -368,7 +366,7 @@
 	.num{
 		padding-top: 1.6%;
 		padding-left: 0.8%;
-		font-size:25px;
+		font-size:45px;
 	}
 	.subscribe{
 		border: 1px solid black;
