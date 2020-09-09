@@ -37,7 +37,7 @@
 .phonepos{
 	display: flex;
 	flex-direction:row;
-	width: 25%;
+	width:50%;
 }
 .pointi{
 	display: flex;
@@ -199,12 +199,12 @@
 	}
 	.phonepos{
 		display: flex;
-		flex-direction:row;
+		flex-direction:column;
 		width: 25%;
 	}
 	.pointi{
 		display: flex;
-		flex-direction:row;
+		flex-direction:column;
 	}
 	.sub{
 		display: flex;
@@ -233,7 +233,7 @@
 		}
 	.img{
 		padding-left: 17%;
-		width: 30%;
+		width:20%;
 	}
 	.phonesymbol{
 		padding-top: 3%;
