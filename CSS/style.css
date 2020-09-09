@@ -73,7 +73,7 @@
 .num{
 	padding-top: 1.6%;
 	padding-left: 0.8%;
-	font-size:30px;
+	font-size:15px;
 }
 .subscribe{
 	border: 1px solid black;
@@ -221,7 +221,7 @@
 	.num{
 		padding-top: 1.6%;
 		padding-left: 0.8%;
-		font-size:25px;
+		font-size:10px;
 	}
 	.subscribe{
 		border: 1px solid black;
@@ -366,7 +366,7 @@
 	.num{
 		padding-top: 1.6%;
 		padding-left: 0.8%;
-		font-size:27px;
+		font-size:10px;
 	}
 	.subscribe{
 		border: 1px solid black;
