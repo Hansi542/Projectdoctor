@@ -197,7 +197,7 @@
 		background-color:#FFCC00;
 	}
 	.doctor{
-		width: 30%;
+		width: 100%;
 		background-color: palegoldenrod;
 		padding: 2%;
 		margin: 1%;
@@ -231,6 +231,7 @@
 	}
 	.t{
 		font-size: 160%;
+		width:100%;
 	}
 	.bu{
 		border:none;
