@@ -1,6 +1,7 @@
 .stay{
 	font-size: 250%;
-}.point{
+}
+.point{
 	font-size: 150%;
 }
 .p{
@@ -9,6 +10,7 @@
 }
 .mid img{
 	width:100%;
+}
 .start{
 	background-color: olivedrab;
 	font-size: 170%;
@@ -59,13 +61,13 @@
 	background-color: olivedrab;
 	color: white;
 	font-size: 170%;
-	}
-	.flex{
-		display: flex;
-		flex-direction: row;
-		background-color: white;
-		width:100%;
-	}
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	width:100%;
+}
 .img{
 	padding-left: 17%;
 	width: 30%;
@@ -225,7 +227,8 @@
 	}
 	.flex{
 		display: flex;
-		flex-direction:column;
+		flex-direction:row;
+		width:100%;
 		background-color: white;
 		}
 	.img{
@@ -384,7 +387,8 @@
 	}
 	.flex{
 		display: flex;
-		flex-direction: column;
+		flex-direction:row;
+		width:100%;
 		background-color: white;
 		}
 	.img{
