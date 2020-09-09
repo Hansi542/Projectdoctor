@@ -37,7 +37,6 @@
 .phonepos{
 	display: flex;
 	flex-direction:row;
-	width:50%;
 }
 .pointi{
 	display: flex;
@@ -77,15 +76,6 @@
 }
 .num{
 	padding-top: 1.6%;
-	padding-left: 0.8%;
-	font-size: 25px;
-}
-.email{
-	padding-top: 3%;
-	padding-left: 3%;
-}
-.link{
-	padding-top: 3%;
 	padding-left: 0.8%;
 	font-size: 25px;
 }
@@ -200,7 +190,6 @@
 	.phonepos{
 		display: flex;
 		flex-direction:column;
-		width: 25%;
 	}
 	.pointi{
 		display: flex;
@@ -240,15 +229,6 @@
 	}
 	.num{
 		padding-top: 1.6%;
-		padding-left: 0.8%;
-		font-size: 25px;
-	}
-	.email{
-		padding-top: 3%;
-		padding-left: 3%;
-	}
-	.link{
-		padding-top: 3%;
 		padding-left: 0.8%;
 		font-size: 25px;
 	}
@@ -360,7 +340,6 @@
 	.phonepos{
 		display: flex;
 		flex-direction:row;
-		width: 25%;
 	}
 	.pointi{
 		display: flex;
@@ -400,15 +379,6 @@
 	}
 	.num{
 		padding-top: 1.6%;
-		padding-left: 0.8%;
-		font-size: 25px;
-	}
-	.email{
-		padding-top: 3%;
-		padding-left: 3%;
-	}
-	.link{
-		padding-top: 3%;
 		padding-left: 0.8%;
 		font-size: 25px;
 	}
