@@ -64,6 +64,7 @@
 	width:100%;
 }
 .img{
+	margin-left:3%;
 	width: 60%;
 }
 .phonesymbol{
@@ -210,17 +211,14 @@
 		flex-direction:row;
 		width:100%;
 		background-color: white;
-		}
-	.img{
-		width:20%;
 	}
 	.phonesymbol{
-		padding-top: 3%;
-		padding-left:30%;
+		padding-top: 20%;
+                padding-left: 35%;
 	}
 	.num{
-		padding-top: 1.6%;
-		padding-left: 0.8%;
+		padding-top: 22%;
+		padding-left:3%;
 		font-size:20px;
 	}
 	.subscribe{
