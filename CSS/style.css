@@ -64,7 +64,7 @@
 	width:100%;
 }
 .img{
-	width: 50%;
+	width: 60%;
 }
 .phonesymbol{
 	padding-top: 3%;
@@ -216,6 +216,7 @@
 	}
 	.phonesymbol{
 		padding-top: 3%;
+		padding-left:30%;
 	}
 	.num{
 		padding-top: 1.6%;
